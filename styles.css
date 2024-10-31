@@ -6,6 +6,7 @@ body {
   /* property:value; is a CSS Rule */
   background-color: #fdfdfd;
   color: #0d0d0d;
+  font-family: "Poppins";
 }
 
 /* HEADER */
@@ -32,8 +33,27 @@ ul {
 }
 
 /* MAIN */
-main {
+.section {
   height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgroundFeature {
+  background-image: url("https://images.unsplash.com/photo-1727816067209-12e058885be8?q=80&w=3322&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+}
+
+div {
+  width: 50%;
+}
+
+/* Placeholder value - will be deleted. */
+img {
+  width: 50%;
 }
 
 /* FOOTER */

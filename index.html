@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
+    <!-- Font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -18,7 +22,54 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+
+    <main>
+      <!-- Section devided into left and right with flex. Having text on left side and image on right. -->
+      <section class="section">
+        <div>
+          <h1>Kom på Fløyen</h1>
+          <p>Midt i Bergen sentrum finner vi fjellet Fløyen. En av Bergens største turist attraksjoner, med god utsikt over Bergen fra toppen.</p>
+        </div>
+        <img src="images/image4.jpg" alt="Illustrasjon kommer">
+      </section>
+
+      <!-- Section devided into left and right with flex. Having image on the lift side and text on the right. -->
+      <section class="section">
+        <img src="images/image5.jpeg" alt="Illustrasjon kommer">
+        <div>
+          <h2>Fløybanen</h2>
+          <p>For oss mindre turintressserte har Fløyen sin egen bane som går opp fjellet som kan taes for å nå toppen.</p>
+        </div>
+      </section>
+
+      <!-- Section devided into three "containers"/divs with flex. Each "container"/div having a column of elements. -->
+      <section class="section">
+        <div>
+          <img src="images/image2.jpg" alt="Illustrasjon kommer">
+          <h2>Overskirft</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, porro?</p>
+        </div>
+
+        <div>
+          <img src="images/image3.jpg" alt="Illustrasjon kommer">
+          <h2>Overskirft</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, porro?</p>
+        </div>
+        
+        <div>
+          <img src="images/image1.jpg" alt="Illustrasjon kommer">
+          <h2>Overskirft</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, porro?</p>
+        </div>
+      </section>
+
+      <!-- Section in one using flex. With background-image property for image. -->
+      <section class="section backgroundFeature">
+        <h2>Overskirft</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, quo.</p>
+      </section>
+    </main>
+
     <footer>
       <p>Laget av Julie Hauge</p>
     </footer>
